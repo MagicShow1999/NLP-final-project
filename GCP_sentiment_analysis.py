@@ -42,7 +42,7 @@ if __name__ == '__main__':
         description=__doc__,
         formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument(
-        'filename',
+        'movie_review_filename',
         help='The filename of the data you\'d like to analyze.')
     args = parser.parse_args()
 
